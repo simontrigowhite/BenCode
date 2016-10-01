@@ -1,8 +1,8 @@
-/* The styles. Written in CSS language. */
+// Styles for the page. Written in CSS language.
 
 h1 {
     font-family: Sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -56,7 +56,6 @@ body {
 
 
 .output.before {
-//    background-color: White;
 }
 
 .output.after {
@@ -77,10 +76,6 @@ body {
     border-color: DimGrey;
 }
 
-.button.selected {
-    border-width: 5px;
-    margin: 1px;
-}
 
 .button.submit {
     color: inherit;
