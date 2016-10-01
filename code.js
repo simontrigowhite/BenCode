@@ -26,9 +26,33 @@ function runPage() {
     } );
 */
 
+    addClick($("#submitButton"), submitClick);
     addClick($("#startAgain"), startAgainClick);
 }
 
+function submitClick() {
+
+    var input = $("#inputField").val();
+
+    var output = double(input);
+
+
+    $("#outputField").text(output);
+
+    $("#output").removeClass("before");
+    $("#output").addClass("after");        
+
+//    removeClick($("#submitButton"));
+
+//    elements.submitButton.hide();
+
+}
+
+function double(x) {
+
+    return x * 2;
+
+}
 
 function setupQuestion(elements) {
 

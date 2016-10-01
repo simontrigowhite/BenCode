@@ -24,13 +24,13 @@ body {
     border-color: Green;
 }
 
-.button {
+.input{
     width: 100px;
     float: left;
     padding: 5px;
     margin: 5px;
+    height: 30px;
 
-    color: White;
     font-weight: bold;
     text-align: center;
 
@@ -39,12 +39,42 @@ body {
     border-color: DimGrey;
 }
 
-.button.true {
-    background-color: MediumPurple;
+.output{
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    height: 20px;
+
+    font-weight: bold;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: DimGrey;
 }
 
-.button.false {
+
+.output.before {
+//    background-color: White;
+}
+
+.output.after {
     background-color: LimeGreen;
+}
+
+.button {
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+
+    font-weight: bold;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: DimGrey;
 }
 
 .button.selected {
