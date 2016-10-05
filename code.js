@@ -12,10 +12,12 @@ function submitClick() {
 
     var input = $("#inputField").val();
 
-    var output = double(input);
+    var output = factorial(input);
 
     $("#outputField").text(output);
-
+    if (output=="") {
+	    return;
+    }
     $("#output").removeClass("before");
     $("#output").addClass("after");        
 }

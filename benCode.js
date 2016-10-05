@@ -1,8 +1,20 @@
 // Ben's code. Written in JavaScript language.
 
 
-function double(x) {
+function factorial(x) {
+	if (isNaN(x)) {
+		alert ("That's not a number");
+		return "";
+	}
+	var i;
+	var total;
 
-    return x * 2;
+	total=1;
+	for (i = 1; i <= x; i++) {
+		total=total*i;
+	}
+
+
+    return total;
 
 }
